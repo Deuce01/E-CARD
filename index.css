@@ -1,0 +1,84 @@
+/* Apply styles to the body */
+body {
+    font-family: 'Arial', sans-serif; /* Set a fallback font in case Google Fonts fail to load */
+    margin: 0;
+    padding: 0;
+    background-color: #925050;
+}
+
+/* Style the main container */
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #628abe;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25%;
+}
+
+/* Style the headings */
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Style the unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style list items */
+li {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Style the LinkedIn link */
+a {
+    text-decoration: none;
+    color: #9c6410; /* LinkedIn's official blue color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the email input field */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the "Join newsletter" button */
+button {
+    background-color: #0077b5; /* LinkedIn's official blue color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005d8e; /* Darker blue on hover */
+}
